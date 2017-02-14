@@ -1,0 +1,38 @@
+body {
+    background-color: #b0e4df;
+}
+
+h1 {
+	font-family: Verdana;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+img#photo {
+    border: 1px #000 solid;
+    width: 150px;
+}
+
+div#border {
+    background-color: #b0f5d2;
+    border: #465f98 7px ridge;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+}
+
+div#border p {
+	font-family: Georgia;
+	line-height: 3pt;
+}
+
+ul#cualidades {
+	line-height: 15px;
+	margin: -3px 0px -3px 0px;
+}
