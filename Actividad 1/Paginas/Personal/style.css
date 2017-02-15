@@ -1,9 +1,12 @@
 body {
     background-color: #b0e4df;
+    color: #14867b;
+    text-shadow: #000 0px 1px 0px;
 }
 
 h1 {
 	font-family: Verdana;
+    font-size: 2em;
     text-align: center;
     text-decoration: underline;
 }
@@ -21,18 +24,19 @@ img#photo {
 }
 
 div#border {
-    background-color: #b0f5d2;
+    background-color: #dff7eb;
     border: #465f98 7px ridge;
     margin: 10px 20px 10px 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
 div#border p {
 	font-family: Georgia;
-	line-height: 3pt;
+    font-size: 1.2em;
 }
 
 ul#cualidades {
-	line-height: 15px;
+    font-size: 1.2em;
+	line-height: 25px;
 	margin: -3px 0px -3px 0px;
 }
