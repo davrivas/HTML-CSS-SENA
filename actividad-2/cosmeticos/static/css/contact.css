@@ -1,0 +1,45 @@
+div#body {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "BrushScriptStd";
+    src: url('../fonts/BrushScriptStd.otf');
+}
+
+p#kosmetike {
+    font-family: "BrushScriptStd";
+    font-size: 25px;
+}
+
+form {
+    background-color: #b119b3;
+    border: 1px solid #b31984;
+    display: inline-block;
+    margin-bottom: 15px !important;
+    padding: 15px;
+}
+
+form * {
+    display: block;
+}
+
+label {
+    color: #ffecec;
+}
+
+form input {
+    margin: 5px 0px 5px;
+}
+
+input.field {
+    padding: 5px;
+    width: 150px;
+}
+
+input#submit {
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,85 @@
+/* Estos son los media queries para los dispositivos móviles */
+
+@media (max-width: 480px) {
+    div#slider {
+        width: 350px;
+    }
+
+    img#image {
+        width: 350px;
+    }
+
+    img.slider-image {
+        width: 50px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 649px) {
+    div#slider {
+        width: 450px;
+    }
+
+    img#image {
+        width: 450px;
+    }
+
+    img.slider-image {
+        width: 75px;
+    }
+}
+
+@media (min-width: 650px) {
+    div#slider {
+        width: 600px;
+    }
+
+    img#image {
+        width: 600px;
+    }
+
+    img.slider-image {
+        width: 75px;
+    }
+}
+
+div#slider {
+    background-color: #a9a9a9;
+    border: double 5px #000;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    text-align: center;
+}
+
+div#slider-image {
+    display: block;
+}
+
+img#image {
+    border-bottom: solid 1px;
+    height: auto;
+}
+
+p#description {
+    font-size: 12px;
+    line-height: 0px;
+}
+
+div#slider-images {
+    margin: 5px 0px 5px !important;
+}
+
+div.slider-image {
+    display: inline-block;
+}
+
+img.slider-image {
+    border: solid #a9a9a9 1px;
+    cursor: pointer;
+    height: auto;
+}
+
+img.slider-image:hover {
+    border: solid #000 1px;
+}

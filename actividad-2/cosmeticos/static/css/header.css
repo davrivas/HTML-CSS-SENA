@@ -1,0 +1,43 @@
+header {
+    background-color: #b119b3;
+    margin-top: -21px;
+}
+
+p#blank {
+    color: #b119b3;
+}
+
+@font-face {
+    font-family: "BrushScriptStd";
+    src: url('../fonts/BrushScriptStd.otf');
+}
+
+h1 {
+    color: #ffecec;
+    font-family: "BrushScriptStd";
+    font-size: 40px !important;
+    font-weight: normal;
+    text-align: center;
+}
+
+nav {
+    background-color: #b31984;
+    display: block;
+    padding: 5px 15px;
+}
+
+div.nav {
+    display: inline-block;
+    font-family: "Verdana", sans-serif;
+    padding-right: 10px;
+    text-align: center;
+}
+
+a.nav {
+    color: #ffecec;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: orange;
+}

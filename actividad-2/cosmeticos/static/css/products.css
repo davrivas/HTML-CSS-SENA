@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "BrushScriptStd";
+    src: url('../fonts/BrushScriptStd.otf');
+}
+
+h1#products {
+    color: #000;
+    font-family: "BrushScriptStd";
+    font-size: 30px;
+    text-align: center;
+}
+
+div#products {
+    border: double 5px #000;
+    display: block;
+    margin: 15px;
+    padding: 15px;
+}
+
+div.product {
+    background-color: #b31984;
+    border: solid 1px #000;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+img.product {
+    display: block;
+    width: 300px;
+}
+
+img.product:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+div.bottom {
+    color: #ffecec;
+    clear: both;
+    display: block;
+    font-family: "Verdana", sans-serif;
+    padding: 5px;
+}
+
+div.name {
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+div.price {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
