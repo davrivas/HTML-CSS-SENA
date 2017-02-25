@@ -3,7 +3,7 @@
     src: url('../fonts/BrushScriptStd.otf');
 }
 
-h1#products {
+h1#products-title {
     color: #000;
     font-family: "BrushScriptStd";
     font-size: 30px;
