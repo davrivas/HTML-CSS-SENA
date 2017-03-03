@@ -3,14 +3,14 @@
     src: url('../fonts/BrushScriptStd.otf');
 }
 
-h1#products-title {
+#products-title {
     color: #000;
     font-family: "BrushScriptStd";
     font-size: 30px;
     text-align: center;
 }
 
-div#products {
+#products {
     border: double 5px #000;
     display: block;
     margin: 15px;

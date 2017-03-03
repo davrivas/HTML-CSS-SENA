@@ -1,4 +1,4 @@
-div#body {
+#body {
     display: block;
     margin: auto;
     text-align: center;
@@ -9,7 +9,7 @@ div#body {
     src: url('../fonts/BrushScriptStd.otf');
 }
 
-p#kosmetike {
+#kosmetike {
     font-family: "BrushScriptStd";
     font-size: 25px;
 }
@@ -39,7 +39,7 @@ input.field {
     width: 150px;
 }
 
-input#submit {
+#submit {
     margin: auto;
     display: block;
 }

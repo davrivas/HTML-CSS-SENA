@@ -1,11 +1,11 @@
 /* Estos son los media queries para los dispositivos móviles */
 
 @media (max-width: 480px) {
-    div#slider {
+    #slider {
         width: 350px;
     }
 
-    img#image {
+    #image {
         width: 350px;
     }
 
@@ -15,11 +15,11 @@
 }
 
 @media (min-width: 481px) and (max-width: 649px) {
-    div#slider {
+    #slider {
         width: 450px;
     }
 
-    img#image {
+    #image {
         width: 450px;
     }
 
@@ -29,11 +29,11 @@
 }
 
 @media (min-width: 650px) {
-    div#slider {
+    #slider {
         width: 600px;
     }
 
-    img#image {
+    #image {
         width: 600px;
     }
 
@@ -42,7 +42,7 @@
     }
 }
 
-div#slider {
+#slider {
     background-color: #a9a9a9;
     border: double 5px #000;
     display: block;
@@ -52,21 +52,21 @@ div#slider {
     text-align: center;
 }
 
-div#slider-image {
+#slider-image {
     display: block;
 }
 
-img#image {
+#image {
     border-bottom: solid 1px;
     height: auto;
 }
 
-p#description {
+#description {
     font-size: 12px;
     line-height: 0px;
 }
 
-div#slider-images {
+#slider-images {
     margin: 5px 0px 5px !important;
 }
 

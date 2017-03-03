@@ -18,24 +18,24 @@ img {
     max-width: 100%;
 }
 
-img#photo {
+#photo {
     border: 1px #000 solid;
     width: 150px;
 }
 
-div#border {
+#border {
     background-color: #dff7eb;
     border: #465f98 7px ridge;
     margin: 10px 20px 10px 20px;
     padding: 25px;
 }
 
-div#border p {
+#border p {
 	font-family: Georgia;
     font-size: 1.2em;
 }
 
-ul#cualidades {
+#cualidades {
     font-size: 1.2em;
 	line-height: 25px;
 	margin: -3px 0px -3px 0px;
